@@ -1,0 +1,71 @@
+* {
+    font-family: 'Satisfy', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 80%;
+    /* background-color: rgb(198, 152, 241); */
+    padding: 23px;
+    margin: 23px;
+    margin: auto;
+}
+
+.container h1 {
+    font-family: 'Satisfy', cursive;
+    color: rgb(22, 20, 20);
+    /* background-color: red; */
+    text-align: center;
+}
+
+.container h3 {
+    font-family: 'Satisfy', cursive;
+    /* background-color: red; */
+    color: green;
+    text-align: center;
+}
+
+input,
+textarea {
+    margin: 11px auto;
+    width: 80%;
+    font-size: 16px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 2pc;
+    outline: none;
+    display: block;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: lightblue;
+    border-radius: 3pc;
+    width: 81.5%;
+    margin: auto;
+    padding-top: 5px;
+    margin-top: 7px;
+    display: inline;
+}
+
+.btn {
+    color: rgb(231, 27, 20);
+    padding: 6px 12px;
+    font-size: 20px;
+    border: 2px;
+    cursor: pointer;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
